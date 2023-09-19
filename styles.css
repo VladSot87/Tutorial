@@ -1,0 +1,11 @@
+/* Вбудовані стилі (inline styles) - розміщення прямо в атрибуті*/
+<p style="color: tomato;">Цей текст буде червоним.</p>
+
+/* Вбудована таблиця стилів (embedded stylesheet) - розміщення після тегу <title>*/
+<style>p {
+    color: tomato;
+}
+</style>
+
+/* Зовнішній CSS-код (external stylesheet) - створення файлу styles.css*/
+<link rel="stylesheet" href="./css/styles.css" />
